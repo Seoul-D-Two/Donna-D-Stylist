@@ -1,0 +1,259 @@
+{
+  "services": {
+    "Haircut": [
+      {
+        "id": 1,
+        "serviceName": "Women’s (short)",
+        "description": "A stylish, customized cut designed for your individual fresh and trendy goals",
+        "price": "$55+"
+      },
+      {
+        "id": 2,
+        "serviceName": "Men's Haircut",
+        "description": "A clean, precise haircut tailored for men's styles.",
+        "price": "$35+"
+      },
+      {
+        "id": 3,
+        "serviceName": "Kid's Haircut",
+        "description": "A fun, comfortable haircut for children",
+        "price": "$30+"
+      },
+      {
+        "id": 4,
+        "serviceName": "Bang Trim",
+        "description": "A quick trim to keep your bangs in shape and looking sharp",
+        "price": "$20+"
+      }
+    ],
+    "Color": [
+      {
+        "id": 5,
+        "serviceName": "Root Retouch",
+        "description": "Refresh your natural color with a precise root touch-up",
+        "price": "$100+"
+      },
+      {
+        "id": 6,
+        "serviceName": "Full Color",
+        "description": "Achieve vibrant, all-over color for a fresh, polished look",
+        "price": "$150+"
+      },
+      {
+        "id": 7,
+        "serviceName": "Toner",
+        "description": "Enhance or correct your color with a custom toner application",
+        "price": "$100+"
+      }
+    ],
+    "Styling": [
+      {
+        "id": 8,
+        "serviceName": "Wash & Style (Short)",
+        "description": "A refreshing wash followed by a sleek style for short hair",
+        "price": "$35+"
+      },
+      {
+        "id": 9,
+        "serviceName": "Wash and Style (Long)",
+        "description": "A luxurious wash and professional styling for long, flowing locks",
+        "price": "$50+"
+      },
+      {
+        "id": 10,
+        "serviceName": "Formal Updo (Glam)",
+        "description": "Elegant, sophisticated updo for special occasions or parties",
+        "price": "$80+"
+      }
+    ],
+    "Blonding Service": [
+      {
+        "id": 11,
+        "serviceName": "Partial Highlights",
+        "description": "Add dimension with highlights focused on the top sections of your hair",
+        "price": "$150+"
+      },
+      {
+        "id": 12,
+        "serviceName": "Full Head Highlights",
+        "description": "Brighten your entire look with highlights from root to tip",
+        "price": "$180+"
+      },
+      {
+        "id": 13,
+        "serviceName": "Balayage Highlights",
+        "description": "Achieve a sun-kissed, natural-looking blend of highlights with a hand-painted technique",
+        "price": "$250+"
+      },
+      {
+        "id": 14,
+        "serviceName": "Ombre Balayage",
+        "description": "Get a seamless transition from dark to light with this dramatic, customized color technique",
+        "price": "$350+"
+      },
+      {
+        "id": 15,
+        "serviceName": "Global Bleach",
+        "description": "Lighten your hair all over with a professional bleaching service",
+        "price": "$400+"
+      },
+      {
+        "id": 16,
+        "serviceName": "Color Correction",
+        "description": "Correct uneven or unwanted color for a flawless, balanced result",
+        "price": "$300+"
+      },
+      {
+        "id": 17,
+        "serviceName": "Bleach Touchup",
+        "description": "Maintain your bleached hair with a touch-up for consistent brightness",
+        "price": "$180+"
+      }
+    ],
+    "Hair Treatments": [
+      {
+        "id": 18,
+        "serviceName": "Kerasilk Smoothing Treatments",
+        "description": "Achieve silky, frizz-free hair with a long-lasting smoothing treatment",
+        "price": "$300+"
+      },
+      {
+        "id": 19,
+        "serviceName": "De-Frizz Treatment",
+        "description": "Smooth and control frizz for a sleek, polished look",
+        "price": "$150+"
+      },
+      {
+        "id": 20,
+        "serviceName": "Deep Conditioning Treatment",
+        "description": "Restore moisture and shine with a nourishing deep conditioning session",
+        "price": "$45+"
+      },
+      {
+        "id": 21,
+        "serviceName": "Hair Mask",
+        "description": "A nourishing hair mask treatment designed to deeply hydrate and repair dry, damaged, or over-processed hair",
+        "price": "$25+"
+      },
+      {
+        "id": 22,
+        "serviceName": "Olaplex Treatment",
+        "description": "A treatment that reconnects broken disulfide bonds in the hair restoring its natural integrity.",
+        "price": "$45+"
+      }
+    ]
+  },
+  "reviews": {
+    "review_1": {
+      "reviewer": "Charm",
+      "image": "/public/image/home/reviews/customer1.jpg",
+      "content": "Donna is amazing! She gave me exactly the haircut I wanted. Her team is professional, welcoming, and trustworthy. Highly recommend!"
+    },
+    "review_2": {
+      "reviewer": "Marienette Mallari",
+      "image": "/public/image/home/reviews/customer2.jpg",
+      "content": "Very professional and exactly the style I asked for. The head massage was a bonus! Excellent service. Will definitely come back."
+    },
+    "review_3": {
+      "reviewer": "Daniel",
+      "image": "/public/image/home/reviews/customer3.jpg",
+      "content": "Great value and professional service. Donwin listened to my preferences and delivered perfectly, even cleaning up my beard. Highly recommend!"
+    },
+    "review_4": {
+      "reviewer": "Karen Purugganan",
+      "image": "/public/image/home/reviews/customer4.jpg",
+      "content": "Amazing balayage by Dana, Donna, and Donwin! They were professional, informative, and recommended great products. Totally worth it!"
+    },
+    "review_5": {
+      "reviewer": "Kyle Miller",
+      "image": "/public/image/home/reviews/customer5.jpg",
+      "content": "Awesome place! Friendly staff, amazing haircuts, and reasonable prices. Highly recommend this salon!"
+    },
+    "review_6": {
+      "reviewer": "Dixie Bughaw",
+      "image": "/public/image/home/reviews/customer6.jpg",
+      "content": "Loved my experience! Dana gave me a perfect cut, and the team was accommodating and professional. I’ll definitely return!"
+    },
+    "review_7": {
+      "reviewer": "Joelle Roulette",
+      "image": "/public/image/home/reviews/customer7.jpg",
+      "content": "Tashina provided the best service ever! She was friendly and took great care of my hair. Highly recommend her!"
+    },
+    "review_8": {
+      "reviewer": "Jann Ledda",
+      "image": "/public/image/home/reviews/customer8.jpg",
+      "content": "Dana is incredible! She listened to my vision and delivered a perfect look with amazing attention to detail. Highly recommend!"
+    },
+    "review_9": {
+      "reviewer": "Kathy Cruz",
+      "image": "/public/image/home/reviews/customer9.jpg",
+      "content": "Donna is the only stylist I trust for my thick, frizzy hair. She takes her time and provides excellent service every time."
+    }
+  },
+
+  "staffs": [
+    {
+      "name": "Donna",
+      "image": "/public/image/staffs/staff-Donna.png",
+      "role": "Owner & Master Colorist",
+      "description": "Donna, the proud owner of Donna D’ Stylist Salon, is a licensed stylist with over 17 years of experience and a recognized Master Colorist. Known for her expertise in crafting stunning shades of brown, blonde, and silver, Donna excels in color corrections and creating customized, precise haircuts. Her journey spans roles such as Aveda Educator, Government Hair Examiner, and salon owner. Passionate about her craft, Donna continuously hones her skills by attending global hair shows and classes, ensuring she stays ahead of trends. Her mission is to help clients feel confident and transformed through personalized hair care.",
+      "certificates": [
+        "Certificate of Completion – Scientific Marvel 2008 Certificate",
+        "Master Colorist Certificate- Wella",
+        "Masterclass Certificate – Sassoon Academy Sta. Monica, California",
+        "Makeup Artistry Certificate – Noir Studio",
+        "Lash Extension Certificate – Noir Studio"
+      ],
+      "trainings": [
+        "Behind The Chair Show -2019 Washington DC",
+        "Color Class – Goldwell 2018",
+        "Educator Training – 2016 Toronto",
+        "Paul Michell 'The Gathering' Color/Cut/Style with Paul Mitchell Team- 2012 Las Vegas, Nevada",
+        "Color Class Matrix Color – 2012 San Francisco California",
+        "Paul Mitchell 'The Gathering' Color /Cut/Style With Paul Mitchell Team – 2011 Las Vegas Nevada",
+        "Cutting Class with Celebrity Stylist Michael O’ Rourke, Los Angeles California"
+      ],
+      "awards": [
+        "ICCAP Award 2016 -AVEDA Institute Winnipeg",
+        "ICCAP Award 2015- AVEDA Institute Winnipeg",
+        "ICCAP Award 2014 – AVEDA Institute Winnipeg",
+        "Hair Fantasy Competition – Gold, Scientific Marvel",
+        "Avant-Garde Women’s Cut & Color, Competition – Gold, Scientific Marvel",
+        "Men’s Cut & Colour Competition -Silver, Scientific Marvel"
+      ]
+    },
+    {
+      "name": "Dana",
+      "image": "/public/image/staffs/staff-Dana.png",
+      "role": "Senior Stylist",
+      "description": "Dana is a Senior stylist with over 4 years of experience in the hair industry. She has a strong interest in Asian-inspired hair hairstyles and is looking at creative ways to deliver modern looks. Dana likes being able to customize the look of her clients to suit their lifestyle and personality. In 2019, Dana attended the BTC Show to expand her knowledge in hair. From that show, she was inspired by influencer stylists to continue to work on her craft and improve as a hairdresser. Dana is an excellent listener and is ready to make her next guest’s haircut their best!",
+      "certificates": [
+        "Certificate of Completion from the Scientific Marvel in 2017",
+        "Certified Hairdresser since 2018",
+        "Barbicide Disinfection and Sanitation Certificate"
+      ]
+    },
+    {
+      "name": "Donwin",
+      "role": "Junior Stylist",
+      "image": "/public/image/staffs/staff-Donwin.png",
+      "description": "Donwin is a Junior Stylist who graduated from the Aveda Institute in May. He’s an eager hairstylist whose number one priority is making sure that you leave the salon feeling better than when you came in. Donwin is a well-rounded hairstylist and is studying barbering. He’s working hard and aspires to become Donna D’ Stylists best barber. He specializes in head massages and washes so he’s sure to leave you feeling relaxed and refreshed. Donwin’s head massages are based on Ayurvedic Head Massage techniques. He’s learned some of these techniques from Aveda and is continually working on improving this skill. He believes that the head wash at the sink is the most personable experience someone can ever have in the salon.",
+      "certificates": [
+        "Certificate of Completion from the Aveda Institute Winnipeg in 2020",
+        "Barbicide Disinfection and Sanitation Certificate"
+      ]
+    },
+    {
+      "name": "Tashina",
+      "role": "Junior Stylist",
+      "image": "/public/image/staffs/staff-Tashina.png",
+      "description": "Tashina Roulette is a Junior Stylist who graduated from the R.B. Russell Vocational Pre-industry Hairstyling Program in June 2021. She was at the top of her class earning several in-class and industry awards. Tashina specializes in braiding and is keen on improving her craft. She is creative, determined, dependable and hardworking. Tashina is eager to learn all about hair coloring and the variety of techniques involved."
+    },
+    {
+      "name": "Shae-D",
+      "role": "Apprentice Stylist",
+      "image": "/public/image/staffs/staff-Shae-D.png",
+      "description": "Shae-D graduated top of her class from RB Russell Pre-industry Hairstyling Program, she is an apprentice stylist working towards her red seal certificate to become a full-time hairstylist. Shae-D specializes in color services especially when it comes to blondes as well as braiding hair. She loves doing creative designs. Changing someone's appearance and seeing them happy is a rewarding feeling."
+    }
+  ]
+}
