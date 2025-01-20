@@ -182,6 +182,29 @@
     }
   ],
 
+  "team": [
+    {
+      "image": "/public/image/about/team1.jpg",
+      "id":1
+    },
+    {
+      "image": "/public/image/about/team2.jpg",
+      "id":2
+    },
+    {
+      "image": "/public/image/about/team3.jpg",
+      "id":3
+    },
+    {
+      "image": "/public/image/about/team4.jpg",
+      "id":4
+    },
+    {
+      "image": "/public/image/about/team5.jpg",
+      "id":5
+    }
+  ],
+
   "staffs": [
     {
       "name": "Donna",

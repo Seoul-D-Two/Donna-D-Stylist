@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import Slider from "react-slick"; // react-slick 임포트
-import "slick-carousel/slick/slick.css"; // slick 스타일
-import "slick-carousel/slick/slick-theme.css"; // slick 테마 스타일
+import Slider from "react-slick"; 
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css"; 
 import ReviewCard from "./ReviewCard";
-import reviewsData from "/public/data.json"; // 리뷰 데이터 경로
+import reviewsData from "/public/data.json"; 
 
 function Section4() {
   const [reviews, setReviews] = useState([]);

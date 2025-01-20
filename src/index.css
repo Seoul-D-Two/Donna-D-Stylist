@@ -4,3 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.slick-dots li button:before {
+  color: #a7a7a7 !important;
+}
+
+.slick-dots li.slick-active button::before{
+  color: #F3F3F3 !important;
+}
