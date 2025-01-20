@@ -10,7 +10,7 @@ function Section1() {
       .fromTo(
         ".animate-h3",
         { opacity: 0, y: 70 },
-        { opacity: 1, y: 0, duration: 0.7, ease: "power2.out" }
+        { opacity: 1, y: 0, duration: 0.5, ease: "power2.out" }
       )
       .fromTo(
         ".animate-h1",
@@ -20,7 +20,7 @@ function Section1() {
       .fromTo(
         ".animate-p",
         { opacity: 0, y: 70 },
-        { opacity: 1, y: 0, duration: 0.7, ease: "power2.out" }
+        { opacity: 1, y: 0, duration: 0.5, ease: "power2.out" }
       );
   }, []);
 
