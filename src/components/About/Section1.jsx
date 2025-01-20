@@ -38,7 +38,12 @@ function Section1() {
           refreshed.
         </p>
         <div className="mt-10 justify-self-center lg:justify-self-start">
-          <Button text={"FOLLOW US"} />
+          <a
+            href="https://www.instagram.com/donnadstylistsalon/"
+            target="_blank"
+          >
+            <Button text={"FOLLOW US"} />
+          </a>
         </div>
       </div>
 

@@ -41,7 +41,7 @@ function Section4() {
   };
 
   return (
-    <section className="py-16">
+    <section className="py-20">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-semibold mb-10 w-fit mx-auto border-b border-b-customGrayDark pb-3">Customer Reviews</h2>
         <Slider {...settings}> 

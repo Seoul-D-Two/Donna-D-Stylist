@@ -21,13 +21,18 @@ function Section5() {
             <br /> to see our latest creations and inspirations.
           </p>
 
-          <Button text={"FOLLOW NOW"} />
+          <a
+            href="https://www.instagram.com/donnadstylistsalon/"
+            target="_blank"
+          >
+            <Button text={"FOLLOW NOW"} />
+          </a>
         </div>
         <a href="https://www.instagram.com/donnadstylistsalon/" target="_blank">
           <img
             src={instagramAccount}
             alt="Instagram account image"
-            className="hover:scale-[98%] duration-300 cursor-pointer px-10 translate-y-7 md:max-w-full md:px-10 max-w-[30rem] lg:max-w-[40rem] md:max-h-[25rem] object-contain w-full h-auto self-end"
+            className="lg:hover:scale-[98%] duration-300 cursor-pointer px-20 translate-y-7 md:max-w-full md:px-10 max-w-[30rem] lg:max-w-[40rem] md:max-h-[25rem] object-contain w-full h-auto self-end"
           />
         </a>
       </div>
@@ -43,7 +48,7 @@ function Section5() {
             <img
               src={HomeInstaImage1}
               alt=""
-              className="hover:scale-[98%] duration-300 cursor-pointer aspect-square border border-customGoldStart w-full h-auto object-cover mx-auto"
+              className="lg:hover:scale-[98%] duration-300 cursor-pointer aspect-square border border-customGoldStart w-full h-auto object-cover mx-auto"
             />
           </a>
           <a
@@ -63,7 +68,7 @@ function Section5() {
             <img
               src={HomeInstaImage4}
               alt=""
-              className="hover:scale-[98%] duration-300 cursor-pointer aspect-square border border-customGoldStart w-full h-auto object-cover mx-auto"
+              className="lg:hover:scale-[98%] duration-300 cursor-pointer aspect-square border border-customGoldStart w-full h-auto object-cover mx-auto"
             />
           </a>
           <a
@@ -73,7 +78,7 @@ function Section5() {
             <img
               src={HomeInstaImage3}
               alt=""
-              className="hover:scale-[98%] duration-300 cursor-pointer aspect-square border border-customGoldStart w-full h-auto object-cover mx-auto"
+              className="lg:hover:scale-[98%] duration-300 cursor-pointer aspect-square border border-customGoldStart w-full h-auto object-cover mx-auto"
             />
           </a>
         </div>
