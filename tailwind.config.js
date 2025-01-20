@@ -11,9 +11,10 @@ module.exports = {
       },
 
       colors: {
-        customGoldStart: "#FFC74D",
-        customGoldEnd: "#D98F20",
-        customGrayDark: "#1D1D1D",
+        customGoldStart: "#FBD472",
+        customGoldEnd: "#EAA535",
+        customGrayLight: "#F3F3F3",
+        customGrayDark: "#1C1C1C",
         customBlack: "#121212",
 
       },
@@ -32,10 +33,10 @@ module.exports = {
         h1: ["30px", { lineHeight: "1.5", letterSpacing: "0.03em" }],
         "h1-md": ["35px", { lineHeight: "1.5" }],
         h2: ["23px", { lineHeight: "1.5" }],
-        "h2-md": ["25px", { lineHeight: "1.5" }],
-        h3: ["38px", { lineHeight: "1.5" }],
-        "h3-md": ["39px", { lineHeight: "1.5" }],
-        "h3-lg": ["40px", { lineHeight: "1.5" }],
+        "h2-md": ["48px", { lineHeight: "1.5" }],
+        h3: ["32px", { lineHeight: "1.5" }],
+        "h3-md": ["34px", { lineHeight: "1.5" }],
+        "h3-lg": ["36px", { lineHeight: "1.5" }],
         h4: ["16px", { lineHeight: "1.5" }],
         "h4-md": ["17px", { lineHeight: "1.5" }],
         "h4-lg": ["18px", { lineHeight: "1.5" }],
@@ -57,13 +58,13 @@ module.exports = {
           },
         },
         h2: {
-          "@apply font-Aboreto text-h2 text-white": {},
+          "@apply font-Aboreto text-h2 text-customGrayDark": {},
           "@screen md": {
             "@apply text-h2-md": {},
           },
         },
         h3: {
-          "@apply font-Brush text-h3 text-white": {},
+          "@apply font-Aboreto text-h3 text-customGrayDark": {},
           "@screen md": {
             "@apply text-h3-md": {},
           },
@@ -81,13 +82,13 @@ module.exports = {
           },
         },
         h5: {
-          "@apply font-Lato text-h5 font-[300] text-white": {},
+          "@apply font-Lato text-h5 font-[300] text-customGrayDark": {},
           "@screen lg": {
             "@apply text-h5-lg": {},
           },
         },
         p: {
-          "@apply font-Lato text-p text-white font-[300]": {},
+          "@apply font-Lato text-p text-customGrayDark font-[300]": {},
           "@screen md": {
             "@apply text-p-md": {},
           },

@@ -3,7 +3,7 @@ import Section1 from "../components/home/Section1";
 import Section2 from "../components/home/Section2";
 import Section3 from "../components/home/Section3";
 import Section4 from "../components/home/Section4";
-import Banner from "../components/home/Banner";
+import Section5 from "../components/home/Section5";
 
 export default function Home() {
   const [isBannerOpen, setIsBannerOpen] = useState(false); // 배너 열림 상태
@@ -29,19 +29,13 @@ export default function Home() {
   }, [hasTriggered]);
 
   return (
-    <div className="relative overflow-x-hidden bg-customBlack">
-      <div>
-        {/* Section1에 고유 클래스를 추가 */}
-        <div className="section1">
-          <Section1 />
-        </div>
-        <div className="space-y-[8rem] lg:space-y-[10rem] 2xl:space-y-[12rem]">
-          <Section2 />
-          <Section3 />
-          <Section4 />
-        </div>
-        <Banner isOpen={isBannerOpen} onClose={() => setIsBannerOpen(false)} />
-      </div>
+    <div className="relative overflow-x-hidden bg-customGrayLight">
+      {/* Section1에 고유 클래스를 추가 */}
+      <Section1 />
+      <Section2 />
+      <Section3 />
+      <Section4 />
+      <Section5 />
     </div>
   );
 }

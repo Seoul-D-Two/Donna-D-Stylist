@@ -143,53 +143,44 @@
       }
     ]
   },
-  "reviews": {
-    "review_1": {
+  "reviews": [
+    {
       "reviewer": "Charm",
-      "image": "/public/image/home/reviews/customer1.jpg",
-      "content": "Donna is amazing! She gave me exactly the haircut I wanted. Her team is professional, welcoming, and trustworthy. Highly recommend!"
+      "content": "Donna gave me exactly the haircut I wanted. Her team is professional, welcoming, and trustworthy. Highly recommend!"
     },
-    "review_2": {
+    {
       "reviewer": "Marienette Mallari",
-      "image": "/public/image/home/reviews/customer2.jpg",
       "content": "Very professional and exactly the style I asked for. The head massage was a bonus! Excellent service. Will definitely come back."
     },
-    "review_3": {
+    {
       "reviewer": "Daniel",
-      "image": "/public/image/home/reviews/customer3.jpg",
-      "content": "Great value and professional service. Donwin listened to my preferences and delivered perfectly, even cleaning up my beard. Highly recommend!"
+      "content": "Great value and professional service. Donwin listened to my preferences and delivered perfectly, even cleaning up my beard."
     },
-    "review_4": {
+    {
       "reviewer": "Karen Purugganan",
-      "image": "/public/image/home/reviews/customer4.jpg",
       "content": "Amazing balayage by Dana, Donna, and Donwin! They were professional, informative, and recommended great products. Totally worth it!"
     },
-    "review_5": {
+    {
       "reviewer": "Kyle Miller",
-      "image": "/public/image/home/reviews/customer5.jpg",
       "content": "Awesome place! Friendly staff, amazing haircuts, and reasonable prices. Highly recommend this salon!"
     },
-    "review_6": {
+    {
       "reviewer": "Dixie Bughaw",
-      "image": "/public/image/home/reviews/customer6.jpg",
       "content": "Loved my experience! Dana gave me a perfect cut, and the team was accommodating and professional. I’ll definitely return!"
     },
-    "review_7": {
+    {
       "reviewer": "Joelle Roulette",
-      "image": "/public/image/home/reviews/customer7.jpg",
       "content": "Tashina provided the best service ever! She was friendly and took great care of my hair. Highly recommend her!"
     },
-    "review_8": {
+    {
       "reviewer": "Jann Ledda",
-      "image": "/public/image/home/reviews/customer8.jpg",
       "content": "Dana is incredible! She listened to my vision and delivered a perfect look with amazing attention to detail. Highly recommend!"
     },
-    "review_9": {
+    {
       "reviewer": "Kathy Cruz",
-      "image": "/public/image/home/reviews/customer9.jpg",
       "content": "Donna is the only stylist I trust for my thick, frizzy hair. She takes her time and provides excellent service every time."
     }
-  },
+  ],
 
   "staffs": [
     {

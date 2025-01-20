@@ -18,13 +18,11 @@ export default function Gallery() {
   };
 
   return (
-    <div className="min-h-screen py-[5rem] bg-customBlack flex flex-col items-center justify-center">
-      <h2 className="text-3xl font-bold text-center mb-8 bg-gradient-to-r from-customGoldStart to-customGoldEnd bg-clip-text text-transparent">
-        Gallery
-      </h2>
-      <p className="text-lg text-gray-700 mb-8">
-        Take a look at our salon and some of our happy customers!
-      </p>
+    <div className="bg-customGrayLight py-[8rem] min-h-screen">
+      <div className="container mx-auto grid gap-10 lg:gap-20">
+        <h1 className="border-b border-b-customGrayDark w-fit mx-auto pb-3 text-3xl text-center">
+          GALLERY
+        </h1>
       <div className="grid grid-cols-4 gap-4">
         {imageUrls.map((url, index) => (
           <div
@@ -45,6 +43,7 @@ export default function Gallery() {
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 }

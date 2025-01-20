@@ -1,66 +1,58 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import instagramAccount from "/public/image/home/instagram.png";
-import HomeInstaImage1 from "/public/image/home/InstaImages/HomeInstaImage1.jpeg";
-import HomeInstaImage2 from "/public/image/home/InstaImages/HomeInstaImage2.jpeg";
-import HomeInstaImage3 from "/public/image/home/InstaImages/HomeInstaImage3.jpeg";
-import HomeInstaImage4 from "/public/image/home/InstaImages/HomeInstaImage4.jpeg";
+import React, { useEffect, useState } from "react";
+import Slider from "react-slick"; // react-slick 임포트
+import "slick-carousel/slick/slick.css"; // slick 스타일
+import "slick-carousel/slick/slick-theme.css"; // slick 테마 스타일
+import ReviewCard from "./ReviewCard";
+import reviewsData from "/public/data.json"; // 리뷰 데이터 경로
 
 function Section4() {
+  const [reviews, setReviews] = useState([]);
+
+  useEffect(() => {
+    setReviews(reviewsData.reviews);
+  }, []);
+
+  const settings = {
+    infinite: true,
+    speed: 1000, 
+    slidesToShow: 3,
+    centerMode: true, 
+    centerPadding: "0", 
+    autoplay: true, 
+    autoplaySpeed: 3000,
+    responsive: [
+      {
+        breakpoint: 1280, 
+        settings: {
+          slidesToShow: 2,
+          centerPadding: "0", 
+          centerMode: true, 
+        },
+      },
+      {
+        breakpoint: 768, 
+        settings: {
+          slidesToShow: 1, 
+          centerPadding: "0", 
+          centerMode: false, 
+        },
+      },
+    ],
+  };
+
   return (
-    <div className="grid pb-[5rem] md:pb-[10rem] 2xl:pb-[15rem]">
-      <div className="grid grid-cols-1 place-items-center md:grid-cols-2 container mx-auto">
-        <div className="px-5 flex flex-col justify-center items-center md:items-start">
-          <h3 className="bg-gradient-to-r from-customGoldStart to-customGoldEnd bg-clip-text text-transparent">
-            Follow us
-          </h3>
-          <h2>Follow us on Instagram</h2>
-          <p>Explore our clients' stunning style makeovers</p>
-          <FontAwesomeIcon
-            icon={faInstagram}
-            className="text-white text-2xl my-4"
-          />
-        </div>
-        <img
-          src={instagramAccount}
-          alt="Instagram account image"
-          className=" px-10 translate-y-5 md:max-w-full md:px-10 lg:max-w-[40rem] md:max-h-[30rem] object-contain w-full h-auto self-end mt-5"
-        />
+    <section className="py-16">
+      <div className="container mx-auto text-center">
+        <h2 className="text-3xl font-semibold mb-10 w-fit mx-auto border-b border-b-customGrayDark pb-3">Customer Reviews</h2>
+        <Slider {...settings}> 
+          {reviews.map((review, index) => (
+            <div key={index} className="px-3"> 
+              <ReviewCard reviewer={review.reviewer} content={review.content} />
+            </div>
+          ))}
+        </Slider>
       </div>
-      {/* <div className="grid h-[rem]">
-      <div>{""}</div>
-      </div> */}
-      <div className="relative container mx-auto">
-        <div className="grid lg:grid-cols-4 grid-cols-2 gap-5 px-3">
-          <img
-            src={HomeInstaImage1}
-            alt=""
-            className="aspect-square border border-customGoldStart w-full h-auto object-cover mx-auto"
-          />
-          <img
-            src={HomeInstaImage2}
-            alt=""
-            className="aspect-square border border-customGoldStart w-full h-auto object-cover mx-auto"
-          />
-          <img
-            src={HomeInstaImage3}
-            alt=""
-            className="aspect-square border border-customGoldStart w-full h-auto object-cover mx-auto"
-          />
-          <img
-            src={HomeInstaImage4}
-            alt=""
-            className="aspect-square border border-customGoldStart w-full h-auto object-cover mx-auto"
-          />
-          {/* <img
-          src="https://images.pexels.com/photos/1987301/pexels-photo-1987301.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-          alt=""
-          className="aspect-square border border-customGoldStart max-w-[20rem] w-full h-auto object-cover mx-auto"
-        /> */}
-        </div>
-      </div>
-    </div>
+    </section>
   );
 }
 

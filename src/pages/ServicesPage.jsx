@@ -5,10 +5,10 @@ const ServiceItem = ({ service }) => {
   return (
     <div className="service-item py-4 border-l-2 border-customGoldEnd pl-5">
       <div className="flex justify-between items-center">
-        <h5 className="text-white">{service.serviceName}</h5>
-        <p className="font-semiBold text-lg">{service.price}</p>
+        <h5>{service.serviceName}</h5>
+        <p className="text-customGrayDark font-[400] text-lg">{service.price}</p>
       </div>
-      <p className="text-sm text-gray-400 mt-1">{service.description}</p>
+      <p className="text-sm text-gray-600 mt-1 max-w-[26rem]">{service.description}</p>
     </div>
   );
 };
@@ -16,7 +16,7 @@ const ServiceItem = ({ service }) => {
 const ServiceCategory = forwardRef(({ category, services }, ref) => {
   return (
     <div className="mb-[5rem] category-box" ref={ref}>
-      <h2 className="pb-5">{category.toUpperCase()}</h2>
+      <h3 className="pb-5 text-2xl">{category.toUpperCase()}</h3>
       {services.map((service) => (
         <ServiceItem key={service.id} service={service} />
       ))}
@@ -62,12 +62,12 @@ export default function Services() {
   }, [isLoaded]);
 
   return (
-    <div className="bg-customBlack py-[10rem] min-h-screen text-white">
-      <div className="container mx-auto grid ">
-        <h1 className="text-3xl bg-white text-center mb-12 bg-gradient-to-r from-customGoldStart to-customGoldEnd bg-clip-text text-transparent">
+    <div className="bg-customGrayLight pt-[8rem] min-h-screen">
+      <div className="container mx-auto grid gap-10 lg:gap-20">
+        <h1 className="border-b border-b-customGrayDark w-fit mx-auto pb-3 text-3xl text-center">
           SERVICES
         </h1>
-        <div className="grid lg:grid-cols-2 grid-cols-1 gap-[5rem]">
+        <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-[5rem] px-5">
           <div className="grid h-fit">
             {Object.keys(services)
               .filter((category, index) => index < 3) // 첫 3개 카테고리

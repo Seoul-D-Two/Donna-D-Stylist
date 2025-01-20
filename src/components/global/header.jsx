@@ -11,7 +11,7 @@ export default function Header() {
   const closeMenu = () => setMenuOpen(false);
 
   return (
-    <header className="bg-customBlack bg-opacity-80 text-white fixed top-0 right-0 left-0 z-[100] border-t-[5px] border-t-customGoldEnd">
+    <header className="px-5 bg-customGrayDark text-white fixed top-0 right-0 left-0 z-[100]">
       <nav className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <div>
