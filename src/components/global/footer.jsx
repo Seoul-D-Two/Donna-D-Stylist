@@ -31,7 +31,7 @@ export default function Footer() {
                 1991
               </p>
             </a>
-            <a href="mailto:suink2005.com">
+            <a href="mailto:donnadstylist1551@gmail.com">
               <p className="text-white hover:scale-[98%] duration-300 cursor-pointer">
                 <FontAwesomeIcon icon={faEnvelope} />
                 <span className="ml-3">{""}</span>donnadstylist1551@gmail.com
