@@ -1,16 +1,23 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import logo from "/public/image/global/logo.png";
-import data from "/public/data.json";
+import team1 from "/public/image/about/team1.jpg";
+import team2 from "/public/image/about/team2.jpg";
+import team3 from "/public/image/about/team3.jpg";
+import team4 from "/public/image/about/team4.jpg";
+import team5 from "/public/image/about/team5.jpg";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../../index.css";
 
 function Section3() {
-  const [teamData, setTeamData] = useState([]);
-  useEffect(() => {
-    setTeamData(data.team);
-  }, []);
+  const teamData = [
+    { image: team1, id: 1 },
+    { image: team2, id: 2 },
+    { image: team3, id: 3 },
+    { image: team4, id: 4 },
+    { image: team5, id: 5 },
+  ];
 
   const settings = {
     infinite: true,
@@ -58,7 +65,7 @@ function Section3() {
                 alt={`Team ${team.id}`}
                 className={`scale-[101%] w-full h-full object-cover aspect-video ${
                   team.id === 2 ? "lg:h-[524px]" : "lg:h-[250px]"
-                }`} // id 3번 팀원 이미지 높이 2배
+                }`}
               />
             </div>
           ))}
@@ -67,6 +74,7 @@ function Section3() {
           <Slider {...settings}>
             {teamData.map((team) => (
               <img
+                key={team.id}
                 src={team.image}
                 alt={`Team ${team.id}`}
                 className="scale-[101%] w-full h-full object-cover aspect-video"

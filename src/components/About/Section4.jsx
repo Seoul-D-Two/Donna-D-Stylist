@@ -1,7 +1,27 @@
 import React from "react";
-import { staffs } from "../../../public/data.json";
+import staffDonna from "/public/image/staffs/staff-Donna.png";
+import staffDana from "/image/staffs/staff-Dana.png";
+import staffDonwin from "/image/staffs/staff-Donwin.png";
+import staffTashina from "/image/staffs/staff-Tashina.png";
+import staffShaeD from "/image/staffs/staff-Shae-D.png";
 
 function Section4() {
+  const staffImages = {
+    Donna: staffDonna,
+    Dana: staffDana,
+    Donwin: staffDonwin,
+    Tashina: staffTashina,
+    ShaeD: staffShaeD,
+  };
+
+  const staffs = [
+    { name: "Donna", role: "Owner & Master Colorist" },
+    { name: "Dana", role: "Senior Stylist" },
+    { name: "Donwin", role: "Junior Stylist" },
+    { name: "Tashina", role: "Junior Stylist" },
+    { name: "Shae-D", role: "Apprentice Stylist" },
+  ];
+
   return (
     <div className="pt-20">
       <h2 className="text-3xl font-semibold mb-10 w-fit mx-auto border-b border-b-customGrayDark pb-3">
@@ -15,7 +35,7 @@ function Section4() {
             {/* Image */}
             <div className="w-32 h-32 border-[1px] rounded-full overflow-hidden border-customGoldStart mx-auto">
               <img
-                src={staff.image}
+                src={staffImages[staff.name.replace(/-/g, "").replace(/\s/g, "")]}
                 alt={staff.name}
                 className="w-full h-full object-cover translate-y-6 scale-150"
               />
