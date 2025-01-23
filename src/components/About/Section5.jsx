@@ -64,7 +64,7 @@ export default function Section5() {
 
               {/* Staff Details */}
               <div className="w-full md:w-2/3 gap-4 border-b border-b-black">
-                <h3 className="font-bold mb-2">{staff.name}</h3>
+                <h3 className="text-3xl mb-2">{staff.name}</h3>
                 <div
                   className="flex"
                   onClick={() => toggleDropdown(index)}
