@@ -42,7 +42,7 @@ module.exports = {
         "h4-lg": ["18px", { lineHeight: "1.5" }],
         h5: ["20px", { lineHeight: "1.8" }],
         "h5-lg": ["20px", { lineHeight: "1.9" }],
-        p: ["16px", {  }],
+        p: ["16px"],
         "p-md": ["16px", { lineHeight: "1.9" }],
         "p-lg": ["17px", { lineHeight: "1.9" }],
       },
@@ -52,7 +52,7 @@ module.exports = {
     function ({ addComponents }) {
       addComponents({
         h1: {
-          "@apply font-Aboreto text-h1 font-bold": {},
+          "@apply font-Aboreto text-h1": {},
           "@screen md": {
             "@apply text-h1-md": {},
           },
