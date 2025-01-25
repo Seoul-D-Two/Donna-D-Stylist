@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useRef, forwardRef } from "react";
+import { Helmet } from "react-helmet";
 import gsap from "gsap";
 
 const ServiceItem = ({ service }) => {
@@ -63,6 +64,26 @@ export default function Services() {
 
   return (
     <div className="bg-customGrayLight pt-[8rem] min-h-screen">
+      <Helmet>
+        <title>Services - Donna D' Stylist Salon</title>
+        <meta
+          name="description"
+          content="Explore the range of professional hair services offered by Donna D' Stylist Salon. From haircuts to coloring and styling, we offer the best beauty treatments in Winnipeg."
+        />
+        <meta
+          name="keywords"
+          content="haircuts, styling, hair treatments, hair color, highlights, salon services, Winnipeg hair salon"
+        />
+        <meta property="og:title" content="Services - Donna D' Stylist Salon" />
+        <meta
+          property="og:description"
+          content="Explore the range of professional hair services offered by Donna D' Stylist Salon. From haircuts to coloring and styling, we offer the best beauty treatments in Winnipeg."
+        />
+        <meta property="og:image" content="/image/services/hair-cut.jpg" />
+        <meta property="og:url" content="https://donnadstylistsalon.ca/services" />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
+
       <div className="container mx-auto grid gap-10 lg:gap-20">
         <h1 className="border-b border-b-customGrayDark w-fit mx-auto pb-3 text-3xl text-center">
           SERVICES
@@ -70,7 +91,7 @@ export default function Services() {
         <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-[5rem] px-5">
           <div className="grid h-fit">
             {Object.keys(services)
-              .filter((category, index) => index < 3) // 첫 3개 카테고리
+              .filter((category, index) => index < 3) // first 3 categories
               .map((category, index) => (
                 <ServiceCategory
                   key={category}

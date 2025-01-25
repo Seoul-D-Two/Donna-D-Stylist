@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
+import { Helmet } from "react-helmet";
 import Section1 from "../components/home/Section1";
 import Section2 from "../components/home/Section2";
 import Section3 from "../components/home/Section3";
@@ -6,31 +7,28 @@ import Section4 from "../components/home/Section4";
 import Section5 from "../components/home/Section5";
 
 export default function Home() {
-  const [isBannerOpen, setIsBannerOpen] = useState(false); // 배너 열림 상태
-  const [hasTriggered, setHasTriggered] = useState(false); // 한 번만 실행
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window.scrollY; // 현재 스크롤 위치
-      const section1Height = document.querySelector(".section1").offsetHeight; // Section1 높이
-
-      // Section1을 지나갔을 때 배너 표시 (한 번만 실행)
-      if (scrollPosition > section1Height && !hasTriggered) {
-        setIsBannerOpen(true);
-        setHasTriggered(true);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll); // 이벤트 제거
-    };
-  }, [hasTriggered]);
-
   return (
     <div className="relative overflow-x-hidden bg-customGrayLight">
-      {/* Section1에 고유 클래스를 추가 */}
+      <Helmet>
+        <title>Donna D' Stylist Salon - Best Hair Salon in Winnipeg</title>
+        <meta
+          name="description"
+          content="Experience the latest styles and professional services at Donna D' Stylist Salon, a premium hair salon located in Winnipeg."
+        />
+        <meta
+          name="keywords"
+          content="hair salon, Winnipeg, Donna D' Stylist Salon, hairstyle, beauty, Winnipeg hair salon"
+        />
+        <meta property="og:title" content="Donna D' Stylist Salon - Best Hair Salon in Winnipeg" />
+        <meta
+          property="og:description"
+          content="Experience the latest styles and professional services at Donna D' Stylist Salon, a premium hair salon located in Winnipeg."
+        />
+        <meta property="og:image" content="/image/home/main_image.jpg" />
+        <meta property="og:url" content="https://donnadstylistsalon.ca/" />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
+
       <Section1 />
       <Section2 />
       <Section3 />
