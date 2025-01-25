@@ -39,7 +39,6 @@ module.exports = {
         "h3-lg": ["36px", { lineHeight: "1.5" }],
         h4: ["16px", { lineHeight: "1.5" }],
         "h4-md": ["17px", { lineHeight: "1.5" }],
-        "h4-lg": ["18px", { lineHeight: "1.5" }],
         h5: ["20px", { lineHeight: "1.8" }],
         "h5-lg": ["20px", { lineHeight: "1.9" }],
         p: ["16px"],
@@ -76,10 +75,7 @@ module.exports = {
           "@apply font-Aboreto text-h4": {},
           "@screen md": {
             "@apply text-h4-md": {},
-          },
-          "@screen lg": {
-            "@apply text-h4-lg": {},
-          },
+          }
         },
         h5: {
           "@apply font-Lato text-h5 font-[300] text-customGrayDark": {},

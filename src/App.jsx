@@ -5,19 +5,23 @@ import About from "./pages/AboutPage";
 import Services from "./pages/ServicesPage";
 import Gallery from "./pages/GalleryPage";
 import Footer from "./components/global/Footer";
+import ScrollToTop from "./components/utils/ScrollToTop";
 
 function App() {
   return (
-    <Router>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/gallery" element={<Gallery />} />
-      </Routes>
-      <Footer />
-    </Router>
+    <>
+      <Router>
+        <ScrollToTop />
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/gallery" element={<Gallery />} />
+        </Routes>
+        <Footer />
+      </Router>
+    </>
   );
 }
 

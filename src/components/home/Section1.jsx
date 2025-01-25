@@ -47,7 +47,7 @@ function Section1() {
       <img
         src={main_image}
         alt="Main image"
-        className="lg:order-2 order-1 md:max-w-[40rem] lg:max-w-[45rem] 2xl:max-w-[40rem] w-full h-auto justify-self-center"
+        className="lg:order-2 order-1 md:max-w-[40rem] lg:max-w-[45rem] 2xl:max-w-[50rem] w-full h-auto justify-self-center"
       />
     </section>
   );
