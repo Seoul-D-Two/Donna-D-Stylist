@@ -13,9 +13,9 @@ function Section2() {
           className="justify-self-center max-w-[40rem] w-full h-auto"
         />
         <div className="px-5">
-          <h2 className="w-fit border-b border-b-customGrayDark">
+          <h3 className="w-fit border-b border-b-customGrayDark">
             Team Donna D'
-          </h2>
+          </h3>
           <p className="md:text-xl animate-p mt-5 uppercase pb-10">
             Our team is committed to exceptional hairstyling <br /> and
             personalized care, helping you look and feel your best.
