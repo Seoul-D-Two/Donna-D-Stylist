@@ -49,4 +49,4 @@ npm run build
 
 ## Screenshots
 
-![Screenshot](public\image\readme\READMEimg1.png)
+![Screenshot](https://github.com/Seoul-D-Two/Donna-D-Stylist/raw/main/public/image/readme/READMEimg1.png)
