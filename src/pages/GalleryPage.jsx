@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import Slider from "react-slick"; 
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css"; 
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Section5 from "../components/home/Section5";
 import { Helmet } from "react-helmet";
 
@@ -11,7 +11,7 @@ export default function Gallery() {
   useEffect(() => {
     const generatedUrls = Array.from(
       { length: 20 },
-      (_, index) => `/image/gallery/galleryImage${index + 1}.jpg`
+      (_, index) => `/image/gallery/galleryImage${index + 1}.webp`
     );
     setImageUrls(generatedUrls);
   }, []);
@@ -90,7 +90,10 @@ export default function Gallery() {
           content="Explore the stunning gallery of Donna D' Stylist Salon. Discover our top-notch hair styling services and see the transformation in our clients' looks."
         />
         <meta property="og:image" content="/image/gallery/galleryImage3.jpg" />
-        <meta property="og:url" content="https://donnadstylistsalon.ca/gallery" />
+        <meta
+          property="og:url"
+          content="https://donnadstylistsalon.ca/gallery"
+        />
         <meta name="robots" content="index, follow" />
       </Helmet>
 

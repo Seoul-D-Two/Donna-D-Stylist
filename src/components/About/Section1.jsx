@@ -1,9 +1,8 @@
 import React from "react";
-import main_image from "/public/image/about/about-main.jpg";
+import main_image from "/public/image/about/about-main.webp";
 import Button from "../global/Button";
 
 function Section1() {
-
   return (
     <section className="container mx-auto grid lg:grid-cols-2 gap-10 items-center relative md:pt-[5rem] space-y-10 md:space-y-0 lg:h-screen pb-10 border-b border-b-black">
       <div className="lg:order-1 order-2 lg:pl-10 text-center mx-auto lg:text-start px-5">

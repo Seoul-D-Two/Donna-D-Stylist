@@ -1,10 +1,10 @@
 import React from "react";
-import logo from "/public/image/global/logo.png";
-import team1 from "/public/image/about/team1.jpg";
-import team2 from "/public/image/about/team2.jpg";
-import team3 from "/public/image/about/team3.jpg";
-import team4 from "/public/image/about/team4.jpg";
-import team5 from "/public/image/about/team5.jpg";
+import logo from "/public/image/global/logo.webp";
+import team1 from "/public/image/about/team1.webp";
+import team2 from "/public/image/about/team2.webp";
+import team3 from "/public/image/about/team3.webp";
+import team4 from "/public/image/about/team4.webp";
+import team5 from "/public/image/about/team5.webp";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

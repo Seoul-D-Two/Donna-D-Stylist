@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import teamImage from "/public/image/home/team-image.jpg";
+import teamImage from "/public/image/home/team-image.webp";
 import Button from "../global/Button";
 import { Link } from "react-router-dom";
 

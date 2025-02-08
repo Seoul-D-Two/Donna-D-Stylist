@@ -184,31 +184,31 @@
 
   "team": [
     {
-      "image": "/image/about/team1.jpg",
-      "id":1
+      "image": "/image/about/team1.webp",
+      "id": 1
     },
     {
-      "image": "/image/about/team2.jpg",
-      "id":2
+      "image": "/image/about/team2.webp",
+      "id": 2
     },
     {
-      "image": "/image/about/team3.jpg",
-      "id":3
+      "image": "/image/about/team3.webp",
+      "id": 3
     },
     {
-      "image": "/image/about/team4.jpg",
-      "id":4
+      "image": "/image/about/team4.webp",
+      "id": 4
     },
     {
-      "image": "/image/about/team5.jpg",
-      "id":5
+      "image": "/image/about/team5.webp",
+      "id": 5
     }
   ],
 
   "staffs": [
     {
       "name": "Donna",
-      "image": "/image/staffs/staff-Donna.png",
+      "image": "/image/staffs/staff-Donna.webp",
       "role": "Owner & Master Colorist",
       "description": "Donna, the proud owner of Donna D’ Stylist Salon, is a licensed stylist with over 17 years of experience and a recognized Master Colorist. Known for her expertise in crafting stunning shades of brown, blonde, and silver, Donna excels in color corrections and creating customized, precise haircuts. Her journey spans roles such as Aveda Educator, Government Hair Examiner, and salon owner. Passionate about her craft, Donna continuously hones her skills by attending global hair shows and classes, ensuring she stays ahead of trends. Her mission is to help clients feel confident and transformed through personalized hair care.",
       "certificates": [
@@ -238,7 +238,7 @@
     },
     {
       "name": "Dana",
-      "image": "/image/staffs/staff-Dana.png",
+      "image": "/image/staffs/staff-Dana.webp",
       "role": "Senior Stylist",
       "description": "Dana is a Senior stylist with over 4 years of experience in the hair industry. She has a strong interest in Asian-inspired hair hairstyles and is looking at creative ways to deliver modern looks. Dana likes being able to customize the look of her clients to suit their lifestyle and personality. In 2019, Dana attended the BTC Show to expand her knowledge in hair. From that show, she was inspired by influencer stylists to continue to work on her craft and improve as a hairdresser. Dana is an excellent listener and is ready to make her next guest’s haircut their best!",
       "certificates": [
@@ -250,7 +250,7 @@
     {
       "name": "Donwin",
       "role": "Junior Stylist",
-      "image": "/image/staffs/staff-Donwin.png",
+      "image": "/image/staffs/staff-Donwin.webp",
       "description": "Donwin is a Junior Stylist who graduated from the Aveda Institute in May. He’s an eager hairstylist whose number one priority is making sure that you leave the salon feeling better than when you came in. Donwin is a well-rounded hairstylist and is studying barbering. He’s working hard and aspires to become Donna D’ Stylists best barber. He specializes in head massages and washes so he’s sure to leave you feeling relaxed and refreshed. Donwin’s head massages are based on Ayurvedic Head Massage techniques. He’s learned some of these techniques from Aveda and is continually working on improving this skill. He believes that the head wash at the sink is the most personable experience someone can ever have in the salon.",
       "certificates": [
         "Certificate of Completion from the Aveda Institute Winnipeg in 2020",
@@ -260,13 +260,13 @@
     {
       "name": "Tashina",
       "role": "Junior Stylist",
-      "image": "/image/staffs/staff-Tashina.png",
+      "image": "/image/staffs/staff-Tashina.webp",
       "description": "Tashina Roulette is a Junior Stylist who graduated from the R.B. Russell Vocational Pre-industry Hairstyling Program in June 2021. She was at the top of her class earning several in-class and industry awards. Tashina specializes in braiding and is keen on improving her craft. She is creative, determined, dependable and hardworking. Tashina is eager to learn all about hair coloring and the variety of techniques involved."
     },
     {
       "name": "Shae-D",
       "role": "Apprentice Stylist",
-      "image": "/image/staffs/staff-Shae-D.png",
+      "image": "/image/staffs/staff-Shae-D.webp",
       "description": "Shae-D graduated top of her class from RB Russell Pre-industry Hairstyling Program, she is an apprentice stylist working towards her red seal certificate to become a full-time hairstylist. Shae-D specializes in color services especially when it comes to blondes as well as braiding hair. She loves doing creative designs. Changing someone's appearance and seeing them happy is a rewarding feeling."
     }
   ]

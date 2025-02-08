@@ -1,9 +1,9 @@
 import React from "react";
-import staffDonna from "/public/image/staffs/staff-Donna.png";
-import staffDana from "/image/staffs/staff-Dana.png";
-import staffDonwin from "/image/staffs/staff-Donwin.png";
-import staffTashina from "/image/staffs/staff-Tashina.png";
-import staffShaeD from "/image/staffs/staff-Shae-D.png";
+import staffDonna from "/public/image/staffs/staff-Donna.webp";
+import staffDana from "/image/staffs/staff-Dana.webp";
+import staffDonwin from "/image/staffs/staff-Donwin.webp";
+import staffTashina from "/image/staffs/staff-Tashina.webp";
+import staffShaeD from "/image/staffs/staff-Shae-D.webp";
 
 function Section4() {
   const staffImages = {
@@ -35,7 +35,9 @@ function Section4() {
             {/* Image */}
             <div className="w-32 h-32 border-[1px] rounded-full overflow-hidden border-customGoldStart mx-auto">
               <img
-                src={staffImages[staff.name.replace(/-/g, "").replace(/\s/g, "")]}
+                src={
+                  staffImages[staff.name.replace(/-/g, "").replace(/\s/g, "")]
+                }
                 alt={staff.name}
                 className="w-full h-full object-cover translate-y-6 scale-150"
               />

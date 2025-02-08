@@ -1,11 +1,11 @@
 import React from "react";
-import logo from "/public/image/global/logo.png";
+import logo from "/public/image/global/logo.webp";
 import "../../index.css";
-import hairCut from "/public/image/home/services/hair-cut.jpg"
-import treatments from "/public/image/home/services/treatments.jpg"
-import blond from "/public/image/home/services/blond.jpg"
-import color from "/public/image/home/services/color.jpg"
-import styling from "/public/image/home/services/styling.jpg"
+import hairCut from "/public/image/home/services/hair-cut.webp";
+import treatments from "/public/image/home/services/treatments.webp";
+import blond from "/public/image/home/services/blond.webp";
+import color from "/public/image/home/services/color.webp";
+import styling from "/public/image/home/services/styling.webp";
 import ServiceCard from "./ServiceCard";
 
 function Section3() {
@@ -33,9 +33,8 @@ function Section3() {
           </div>
           <div>{""}</div>
           <p className="lg:max-w-[30%] mt-10 lg:mt-5 md:text-xl uppercase text-customGrayLight text-end">
-            From timeless styles to contemporary trends,
-            our team delivers personalized results with precision
-            and expertise.
+            From timeless styles to contemporary trends, our team delivers
+            personalized results with precision and expertise.
           </p>
         </div>
 
