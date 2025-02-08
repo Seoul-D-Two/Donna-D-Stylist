@@ -49,7 +49,6 @@ npm run build
 
 ## Screenshots
 
-![Screenshot]
-(https://github.com/Seoul-D-Two/Donna-D-Stylist/raw/main/public/image/readme/READMEimg1.png)
-(https://github.com/Seoul-D-Two/Donna-D-Stylist/raw/main/public/image/readme/READMEimg2.png)
-(https://github.com/Seoul-D-Two/Donna-D-Stylist/raw/main/public/image/readme/READMEimg3.png)
+![Screenshot](https://github.com/Seoul-D-Two/Donna-D-Stylist/raw/main/public/image/readme/READMEimg1.png)
+![Screenshot](https://github.com/Seoul-D-Two/Donna-D-Stylist/raw/main/public/image/readme/READMEimg2.png)
+![Screenshot](https://github.com/Seoul-D-Two/Donna-D-Stylist/raw/main/public/image/readme/READMEimg3.png)
