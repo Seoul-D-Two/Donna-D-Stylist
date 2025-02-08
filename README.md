@@ -32,7 +32,7 @@ Hosting: Blue host
 
 Clone the repository:
 
-git clone https://github.com/your-repo-url.git
+git clone https://github.com/Seoul-D-Two/Donna-D-Stylist
 cd donna-d-stylist-salon
 
 Install dependencies:
@@ -49,4 +49,4 @@ npm run build
 
 ## Screenshots
 
-![Screenshot](public/images/readme/READMEimg1.png)
+![Screenshot](https://github.com/Seoul-D-Two/Donna-D-Stylist/raw/main/public/images/readme/READMEimg1.png)
