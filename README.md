@@ -1,8 +1,52 @@
-# React + Vite
+# Donna D Stylist Salon
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+https://donnadstylistsalon.ca/
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Donna D Stylist Salon is a modern hair salon website built using React, Vite, and Tailwind CSS. It provides an elegant and user-friendly interface for customers to explore services, book appointments, and learn more about the salon.
+
+## Website
+
+Visit Donna D Stylist Salon
+
+## Features
+
+Responsive Design – Fully optimized for desktop and mobile devices.
+
+Service Listings – View detailed descriptions of the salon's services.
+
+Online Booking – Schedule appointments easily.
+
+Gallery – Showcase of previous works and styles.
+
+Contact Form – Customers can reach out for inquiries.
+
+## Tech Stack
+
+Frontend: React, Vite, Tailwind CSS
+
+Hosting: Blue host
+
+## Installation & Setup
+
+Clone the repository:
+
+git clone https://github.com/your-repo-url.git
+cd donna-d-stylist-salon
+
+Install dependencies:
+
+npm install
+
+Run the development server:
+
+npm run dev
+
+Build for production:
+
+npm run build
+
+## Screenshots
+
+![Screenshot](public/images/readme/READMEimg1.png)
