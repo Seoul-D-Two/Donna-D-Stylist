@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import main_image from "/public/image/home/main_image.jpg";
+import main_image from "/public/image/home/main_image.webp";
 import BookNowButton from "../global/BookNowButton";
 import { gsap } from "gsap";
 

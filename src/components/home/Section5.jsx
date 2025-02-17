@@ -1,11 +1,11 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import instagramAccount from "/public/image/home/instagram.png";
-import HomeInstaImage1 from "/public/image/home/InstaImages/HomeInstaImage1.jpeg";
-import HomeInstaImage2 from "/public/image/home/InstaImages/HomeInstaImage2.jpeg";
-import HomeInstaImage3 from "/public/image/home/InstaImages/HomeInstaImage3.jpeg";
-import HomeInstaImage4 from "/public/image/home/InstaImages/HomeInstaImage4.jpeg";
+import instagramAccount from "/public/image/home/instagram.webp";
+import HomeInstaImage1 from "/public/image/home/InstaImages/HomeInstaImage1.webp";
+import HomeInstaImage2 from "/public/image/home/InstaImages/HomeInstaImage2.webp";
+import HomeInstaImage3 from "/public/image/home/InstaImages/HomeInstaImage3.webp";
+import HomeInstaImage4 from "/public/image/home/InstaImages/HomeInstaImage4.webp";
 import Button from "../global/Button";
 
 function Section5() {

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import logo from "/public/image/global/logo.png";
+import logo from "/public/image/global/logo.webp";
 import BookNowButton from "./BookNowButton";
 
 export default function Header() {
