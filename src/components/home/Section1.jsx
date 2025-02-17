@@ -27,7 +27,7 @@ function Section1() {
   return (
     <section className="container mx-auto grid lg:grid-cols-2 gap-10 items-center relative md:pt-[5rem] space-y-10 md:space-y-0 lg:h-screen pb-10">
       <div className="lg:order-1 order-2 lg:pl-10 text-center mx-auto lg:text-start">
-        <h1 className="animate-h1 text-nowrap font-[300] w-fit border-b border-b-customGrayDark pb-3 text-4xl md:text-5xl xl:text-6xl">
+        <h1 className="animate-h1 text-nowrap font-[300] w-fit border-b border-b-customGrayDark pb-3">
           Donna D'
           <br /> Stylist Salon
         </h1>

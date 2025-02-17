@@ -6,7 +6,7 @@ const ServiceItem = ({ service }) => {
   return (
     <div className="service-item py-4 border-l-2 border-customGoldEnd pl-5">
       <div className="flex justify-between items-center">
-        <h5>{service.serviceName}</h5>
+        <h5 className="">{service.serviceName}</h5>
         <p className="text-customGrayDark font-[400] text-lg">{service.price}</p>
       </div>
       <p className="text-sm text-gray-600 mt-1 max-w-[26rem]">{service.description}</p>
@@ -16,8 +16,8 @@ const ServiceItem = ({ service }) => {
 
 const ServiceCategory = forwardRef(({ category, services }, ref) => {
   return (
-    <div className="mb-[5rem] category-box" ref={ref}>
-      <h3 className="pb-5 text-2xl">{category.toUpperCase()}</h3>
+    <div className="mb-[3rem] lg:mb-[4rem] category-box" ref={ref}>
+      <h3 className="pb-5 text-2xl font-bold">{category.toUpperCase()}</h3>
       {services.map((service) => (
         <ServiceItem key={service.id} service={service} />
       ))}

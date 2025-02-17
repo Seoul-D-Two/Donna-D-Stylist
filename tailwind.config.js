@@ -30,20 +30,19 @@ module.exports = {
       },
 
       fontSize: {
-        h1: ["30px", { lineHeight: "1.5", letterSpacing: "0.03em" }],
-        "h1-md": ["35px", { lineHeight: "1.5" }],
-        h2: ["23px", { lineHeight: "1.5" }],
-        "h2-md": ["48px", { lineHeight: "1.5" }],
-        h3: ["32px", { lineHeight: "1.5" }],
-        "h3-md": ["34px", { lineHeight: "1.5" }],
-        "h3-lg": ["36px", { lineHeight: "1.5" }],
-        h4: ["16px", { lineHeight: "1.5" }],
-        "h4-md": ["17px", { lineHeight: "1.5" }],
-        h5: ["20px", { lineHeight: "1.8" }],
-        "h5-lg": ["20px", { lineHeight: "1.9" }],
+        h1: ["44px"],
+        "h1-md": ["54px"],
+        "h1-lg": ["64px"],
+        h2: ["23px"],
+        "h2-md": ["48px"],
+        h3: ["32px"],
+        "h3-md": ["34px"],
+        "h3-lg": ["36px"],
+        h4: ["16px"],
+        "h4-md": ["17px"],
+        h5: ["20px"],
         p: ["16px"],
-        "p-md": ["16px", { lineHeight: "1.9" }],
-        "p-lg": ["17px", { lineHeight: "1.9" }],
+        "p-lg": ["17px"],
       },
     },
   },
@@ -78,16 +77,10 @@ module.exports = {
           }
         },
         h5: {
-          "@apply font-Lato text-h5 font-[300] text-customGrayDark": {},
-          "@screen lg": {
-            "@apply text-h5-lg": {},
-          },
+          "@apply font-Lato text-h5 font-[300] text-customGrayDark font-[350]": {},
         },
         p: {
           "@apply font-Lato text-p text-customGrayDark font-[300]": {},
-          "@screen md": {
-            "@apply text-p-md": {},
-          },
           "@screen lg": {
             "@apply text-p-lg": {},
           },

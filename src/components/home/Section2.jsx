@@ -13,7 +13,7 @@ function Section2() {
           className="justify-self-center max-w-[40rem] w-full h-auto"
         />
         <div className="px-5">
-          <h3 className="w-fit border-b border-b-customGrayDark">
+          <h3 className="">
             Team Donna D'
           </h3>
           <p className="md:text-xl animate-p mt-5 uppercase pb-10">
